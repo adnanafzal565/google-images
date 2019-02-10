@@ -5,6 +5,14 @@ This simple script allows you to show image gallery in your website. The design 
 <ol>
   <li>Copy all the files from "assets" folder and save in your project folder</li>
   <li>Create a new folder named "uploads"</li>
+  <li>Create a new table in your database named <i>images</i> and create following columns:
+    <ol>
+      <li><i>id</i> INT AUTO_INCREMENT</li>
+      <li><i>title</i> TEXT</li>
+      <li><i>description</i> TEXT</li>
+      <li><i>path</i> TEXT</li>
+    </ol>
+  </li>
   <li><i>add-image.php</i> file is used to upload pictures (make sure to change database credentials)</li>
   <li><i>index.php</i> is the file used to display image gallery (make sure to change database credentials)</li>
 </ol>
