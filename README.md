@@ -1,6 +1,6 @@
 This simple script allows you to show image gallery in your website. The design inspiration is from Google Images.
 
-<b>Installation:</b>
+<h2>Installation:</h2>
 
 <ol>
   <li>Copy all the files from <b>assets</b> folder and save in your project folder</li>
